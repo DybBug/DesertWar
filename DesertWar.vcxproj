@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\CAxis.cpp" />
+    <ClCompile Include="Common\CCamera.cpp" />
+    <ClCompile Include="Common\CCircularQueue.cpp" />
+    <ClCompile Include="Common\CCombatPlane_Boomb_Info.cpp" />
+    <ClCompile Include="Common\CCombatPlane_MachinGun_Info.cpp" />
+    <ClCompile Include="Common\CCombat_Info.cpp" />
+    <ClCompile Include="Common\CConsole.cpp" />
+    <ClCompile Include="Common\CEventSelect.cpp" />
+    <ClCompile Include="Common\CFont.cpp" />
+    <ClCompile Include="Common\CFrustum.cpp" />
+    <ClCompile Include="Common\CheckOBBCollision.cpp" />
+    <ClCompile Include="Common\CInput.cpp" />
+    <ClCompile Include="Common\CIocp.cpp" />
+    <ClCompile Include="Common\CMesh.cpp" />
+    <ClCompile Include="Common\CMultiThreadSync.cpp" />
+    <ClCompile Include="Common\CNetworkSession.cpp" />
+    <ClCompile Include="Common\CNormalLine.cpp" />
+    <ClCompile Include="Common\CObject_Info.cpp" />
+    <ClCompile Include="Common\CPacketSession.cpp" />
+    <ClCompile Include="Common\CScene.cpp" />
+    <ClCompile Include="Common\CShader.cpp" />
+    <ClCompile Include="Common\CSProcess.cpp" />
+    <ClCompile Include="Common\CTank_Info.cpp" />
+    <ClCompile Include="Common\CTerrain.cpp" />
+    <ClCompile Include="Common\CTimer.cpp" />
+    <ClCompile Include="Common\CTree.cpp" />
+    <ClCompile Include="Common\Device.cpp" />
+    <ClCompile Include="Common\MemoryPool.cpp" />
+    <ClCompile Include="Common\RenderState.cpp" />
+    <ClCompile Include="Common\Sprite.cpp" />
+    <ClCompile Include="DesertWar_Client\CBomb.cpp" />
+    <ClCompile Include="DesertWar_Client\CClientSession.cpp" />
+    <ClCompile Include="DesertWar_Client\CCombatPlane.cpp" />
+    <ClCompile Include="DesertWar_Client\CCombatPlane_Boomb.cpp" />
+    <ClCompile Include="DesertWar_Client\CCombatPlane_MachinGun.cpp" />
+    <ClCompile Include="DesertWar_Client\CGameEngine.cpp" />
+    <ClCompile Include="DesertWar_Client\CIntroScene.cpp" />
+    <ClCompile Include="DesertWar_Client\CLoadingScene.cpp" />
+    <ClCompile Include="DesertWar_Client\CNexus.cpp" />
+    <ClCompile Include="DesertWar_Client\CObject.cpp" />
+    <ClCompile Include="DesertWar_Client\CObjectManager.cpp" />
+    <ClCompile Include="DesertWar_Client\CPlayScene.cpp" />
+    <ClCompile Include="DesertWar_Client\CProcess.cpp" />
+    <ClCompile Include="DesertWar_Client\CResourceManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\CAxis.h" />
+    <ClInclude Include="Common\CCamera.h" />
+    <ClInclude Include="Common\CCircularQueue.h" />
+    <ClInclude Include="Common\CCombatPlane_Boomb_Info.h" />
+    <ClInclude Include="Common\CCombatPlane_MachinGun_Info.h" />
+    <ClInclude Include="Common\CCombat_Info.h" />
+    <ClInclude Include="Common\CConsole.h" />
+    <ClInclude Include="Common\CCriticalSection.h" />
+    <ClInclude Include="Common\CEventSelect.h" />
+    <ClInclude Include="Common\CFont.h" />
+    <ClInclude Include="Common\CFrustum.h" />
+    <ClInclude Include="Common\CheckOBBCollision.h" />
+    <ClInclude Include="Common\CInput.h" />
+    <ClInclude Include="Common\CIocp.h" />
+    <ClInclude Include="Common\CMesh.h" />
+    <ClInclude Include="Common\CMultiThreadSync.h" />
+    <ClInclude Include="Common\CNetworkSession.h" />
+    <ClInclude Include="Common\CNormalLine.h" />
+    <ClInclude Include="Common\CObject_Info.h" />
+    <ClInclude Include="Common\Common.h" />
+    <ClInclude Include="Common\CPacketSession.h" />
+    <ClInclude Include="Common\CProcess.h" />
+    <ClInclude Include="Common\CScene.h" />
+    <ClInclude Include="Common\CShader.h" />
+    <ClInclude Include="Common\CTank_Boomb_Info.h" />
+    <ClInclude Include="Common\CTank_Info.h" />
+    <ClInclude Include="Common\CTerrain.h" />
+    <ClInclude Include="Common\CTimer.h" />
+    <ClInclude Include="Common\CTree.h" />
+    <ClInclude Include="Common\d3dx11effect.h" />
+    <ClInclude Include="Common\Device.h" />
+    <ClInclude Include="Common\MemoryPool.h" />
+    <ClInclude Include="Common\NetworkHeader.h" />
+    <ClInclude Include="Common\RenderState.h" />
+    <ClInclude Include="Common\Sprite.h" />
+    <ClInclude Include="DesertWar_Client\CBomb.h" />
+    <ClInclude Include="DesertWar_Client\CClientSession.h" />
+    <ClInclude Include="DesertWar_Client\CCombatPlane.h" />
+    <ClInclude Include="DesertWar_Client\CCombatPlane_Boomb.h" />
+    <ClInclude Include="DesertWar_Client\CCombatPlane_MachinGun.h" />
+    <ClInclude Include="DesertWar_Client\CGameEngine.h" />
+    <ClInclude Include="DesertWar_Client\CIntroScene.h" />
+    <ClInclude Include="DesertWar_Client\CLoadingScene.h" />
+    <ClInclude Include="DesertWar_Client\CNexus.h" />
+    <ClInclude Include="DesertWar_Client\CObject.h" />
+    <ClInclude Include="DesertWar_Client\CObjectManager.h" />
+    <ClInclude Include="DesertWar_Client\CPlayScene.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e34f0e11-1d67-46e5-aaa0-ac46d3030f23}</ProjectGuid>
+    <RootNamespace>DesertWar</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
